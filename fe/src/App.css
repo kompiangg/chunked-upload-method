@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .body {
+  min-height: 92vh;
+}

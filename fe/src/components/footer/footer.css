@@ -1,0 +1,18 @@
+.footer {
+  background-color: #282c34;
+  height: 8vh;
+
+  padding: 10px 20px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 20px;
+
+  color: white;
+}

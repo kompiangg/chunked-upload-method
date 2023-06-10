@@ -1,0 +1,51 @@
+div.wrap-file-list {
+  width: 700px;
+  height: 130px;
+  border: 3px solid rgb(239, 239, 239);
+  border-radius: 8px;
+  text-align: left;
+  padding: 5px 20px;
+  display: grid;
+  grid-template-columns: 15% 65% 20%;
+  grid-auto-flow: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+div.wrap-file-list p strong {
+  font-size: 23px;
+}
+
+div.wrap-file-list p {
+  font-size: 16px;
+}
+
+.wrap-file-list .wrap-file-metadata {
+  padding: 10px;
+}
+
+div.wrap-file-list {
+  margin-bottom: 25px;
+}
+
+div.wrap-file-list img {
+  height: 80px;
+  padding: 0px;
+}
+
+.upload-button {
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.upload-button-uploading {
+  cursor: auto;
+  color: rgb(212, 66, 59);
+  background-color: rgb(235, 201, 201);
+}
+
+.menu-button-final-state {
+  cursor: auto;
+  pointer-events: none;
+}

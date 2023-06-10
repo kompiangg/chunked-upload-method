@@ -1,0 +1,20 @@
+.header * {
+  margin-top: 0px;
+}
+
+.header img {
+  margin-top: 40px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.header h2 {
+  padding-right: 30%;
+  padding-left: 30%;
+  margin-bottom: 10px;
+}

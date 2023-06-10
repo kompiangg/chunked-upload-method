@@ -1,0 +1,33 @@
+div.file-upload {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+label.label-file-upload.hover {
+  border-radius: 8px;
+  background: rgb(190, 190, 190);
+}
+
+input[type='file'] {
+  display: none;
+}
+
+label.label-file-upload {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s ease-in;
+}
+
+div.wrapper-file-upload {
+  width: 700px;
+  height: 150px;
+  background-color: rgb(243, 243, 242);
+  border: 4px rgb(204, 204, 204) dashed;
+  border-radius: 8px;
+}
